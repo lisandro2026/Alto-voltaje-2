@@ -1,0 +1,100 @@
+/* .secciones, img{
+    display: inline;
+} */
+/* h1{
+    border: 3px red solid;
+} */ 
+
+/* h1{
+    text-align: center;
+    background-color: red;
+    backface-visibility: visible;
+} */
+
+/* h1{ 
+    border-radius: 3px;
+    border-color: red;
+    border-width: 3px;
+    border-style: ridge;
+} */
+/* .secciones .julian{
+    display: inline;
+} */
+
+/* .secciones{
+    display: block;
+}
+
+.julian{
+    display: inline;
+}
+
+.messi{
+    display: inline;
+}
+
+.messi .julian{
+    display: block;
+} */
+
+*{
+    font-family:'Nunito', sans-serif;
+}
+body{
+    background-image:url(fondoAltoVoltaje.jpg);
+}
+a{
+    text-decoration: none;
+
+}
+
+
+
+h1{
+    color: #eee;
+    text-align: center;
+}
+h1{
+    text-decoration: underline;
+    text-shadow: #ddd 5px 5px 5px;
+}
+.secciones{
+    text-align: center;
+}
+.secciones{
+    padding: 90px 0px;
+}
+.secciones{
+    background-color: #eee;
+}
+.secciones :visited{
+    color: darkblue;
+}
+.secciones :hover{
+    color: black;
+     background-color: #eea;
+    padding: 100px 500px; 
+     size: 1000px 1000px;
+    border-radius: 100px; 
+}
+.secciones :active{
+    color: chartreuse;
+}
+.secciones{
+    border: 50px 50px #eef ;
+     border-radius: 100px; 
+} 
+#basico2 :hover{
+    padding: 100px 420px;
+}
+.julian{
+    display: inline;
+}
+.julian{
+    margin: 0px 75px;
+}
+.julian{
+    background-color: #ddd;
+    border: 50px 50px #eef ;
+    border-radius: 100px;
+}
