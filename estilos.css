@@ -51,12 +51,10 @@ a{
 
 
 h1{
-    color: #eee;
+    color: #fff;
     text-align: center;
     text-decoration: underline;
-    text-shadow: #ddd 5px 5px 5px;
-    position: sticky;
-    top: 10px;
+    text-shadow: #dd0 5px 5px 5px;
 }
 
 .secciones{
