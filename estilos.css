@@ -53,11 +53,11 @@ a{
 h1{
     color: #eee;
     text-align: center;
-}
-h1{
     text-decoration: underline;
     text-shadow: #ddd 5px 5px 5px;
+    position: sticky;
 }
+
 .secciones{
     text-align: center;
 }
