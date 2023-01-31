@@ -56,14 +56,9 @@ h1{
     text-decoration: underline;
     text-shadow: #dd0 5px 5px 5px;
 }
-
 .secciones{
     text-align: center;
-}
-.secciones{
     padding: 90px 0px;
-}
-.secciones{
     background-color: #eee;
 }
 .secciones :visited{
