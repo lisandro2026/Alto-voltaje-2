@@ -133,3 +133,7 @@ header h1{
 #corto{
     margin-right: 0;
 }
+#largo2{
+    float: left;
+    width: 8ch;
+}
