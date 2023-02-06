@@ -52,13 +52,13 @@ a{
 header h1{
     color: #212;
     margin-right: 35%;
-    margin-left: 27%;
+    margin-left: 35%;
     text-decoration: wavy;
     background-color:rgba(255, 255, 255, .3);
     white-space: nowrap;
-    width: 22ch;
+    width: 14.5ch;
     font-size: 350%;
-    animation: typin 2s  steps(22),
+    animation: typin 2s  steps(13),
     blink .5s infinite  step-end alternate;
     overflow: hidden;
 }
@@ -71,44 +71,61 @@ header h1{
 .secciones__h1{
     text-align: center;
     padding: 90px 0px;
-    background-color: #ddd;
+    background-color: #ffffff;
     max-width: 100%;
     border: 50px 50px #eef ; 
     margin-top: 0;
     margin-bottom: 0;
     font-size: 300%;
 }
-@keyframes fade-in{
-    0% {opacity: 0 ; }
-    100% {opacity: 100 ; }
-}
+
 .secciones :link{
-    color: black;
+    color: #353535;
 }
 .secciones :visited{
-    color:grey;
+    color:#353535;
 }
 .secciones :hover{
-    color: red ;
+    color: blue ;
+    text-decoration: underline;
     animation: fade-in 1s ;
     animation: fadeBackground 1s;
     animation-fill-mode: forwards;
+}
+@keyframes fade-in{
+    0% {opacity: 0 ; }
+    100% {opacity: 100 ; }
 }
 @keyframes fadeBackground {
     from { background-color: #ddd; }
     to { background-color: #fff; }
 }
-.s1cciones :active{
+
+.secciones :active{
     color: rgb(37, 35, 35);
 }
+
 .extras__h2{
     display: inline;
     margin: 0px 75px;
     background-color: #ddd;
     border: 50px 50px #eef ;
-    border-radius: 100px;
+    border-radius: 10px;
     font-size: xx-large;
 }
+
+.extras__h2 :link{
+    color: blue;
+}
+
+.extras__h2 :visited{
+    color: darkblue;
+}
+
+.extras__h2 :hover{
+    text-decoration: underline;
+}
+
 #largo{
     float: right;
     width: 8ch;
