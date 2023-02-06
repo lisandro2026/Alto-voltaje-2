@@ -49,6 +49,18 @@ a{
 
 }
 
+img{
+    width: 10ch;
+    height: 10ch;
+    margin-left: 45%;
+    margin-right: 20%;
+    animation: fade 3s;
+}
+@keyframes fade {
+    0%{opacity: 0;}
+    100%{opacity: 100;}
+}
+
 header h1{
     color: #212;
     margin-right: 35%;
