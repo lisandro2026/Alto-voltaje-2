@@ -49,11 +49,11 @@ a{
 }
 
 header{
-    color: #fff;
+    color: #222;
     margin-right: 35%;
     margin-left: 35%;
     text-decoration: underline;
-    background-color:rgba(0, 0, 0, 0);
+    background-color:rgba(255, 255, 255, .3);
     white-space: nowrap;
     width: 43ch;
 
