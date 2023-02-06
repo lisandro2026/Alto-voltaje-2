@@ -35,7 +35,7 @@
 
 .messi .julian{
     display: block;
-} */
+*/
 
 *{
     font-family: 'Montserrat', sans-serif;
@@ -50,9 +50,10 @@ a{
 
 header{
     color: #fff;
- 
+    margin-right: 35%;
+    margin-left: 35%;
     text-decoration: underline;
-    background-color:rgba(0, 0, 0, 0.6);
+    background-color:rgba(0, 0, 0, 0);
     white-space: nowrap;
     width: 43ch;
 
@@ -66,17 +67,39 @@ header{
 @keyframes blink{
     50% {border-color: transparent}
 }
-  
-
-
-
-.secciones{
+.secciones__h2{
     text-align: center;
     padding: 90px 0px;
-    background-color: #eee;
-    border: 50px 50px #eef ;     
+    background-color: #ddd;
+    max-width: 100%;
+    border: 50px 50px #eef ; 
+    margin-top: 0;
+    margin-bottom: 0;
+    
 }
-
+@keyframes fade-in{
+    0% {opacity: 0 ; }
+    100% {opacity: 100 ; }
+}
+.secciones :link{
+    color: black;
+}
+.secciones :visited{
+    color:grey;
+}
+.secciones :hover{
+    color: red ;
+    animation: fade-in 1s ;
+    animation: fadeBackground 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeBackground {
+    from { background-color: #ddd; }
+    to { background-color: #2EB07B; }
+}
+.secciones :active{
+    color: rgb(37, 35, 35);
+}
 .extras__h2{
     display: inline;
 }
