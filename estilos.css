@@ -46,7 +46,6 @@ body{
 }
 a{
     text-decoration: none;
-
 }
 
 img{
@@ -80,58 +79,46 @@ header h1{
 @keyframes blink{
     50% {border-color: transparent}
 }
-.secciones__h1{
+.basicos{
+    background-color: #ddd;
+    display: block;
     text-align: center;
-    padding: 90px 0px;
-    background-color: #ffffff;
-    max-width: 100%;
-    border: 50px 50px #eef ; 
-    margin-top: 0;
-    margin-bottom: 0;
+    padding: 3rem 3rem;
     font-size: 300%;
 }
 
-.secciones :link{
-    color: #353535;
-}
-.secciones :visited{
-    color:#353535;
-}
-.secciones :hover{
-    color: blue ;
-    text-decoration: underline;
-    animation: fade-in 1s ;
-    animation: fadeBackground 1s;
-    animation-fill-mode: forwards;
-}
-@keyframes fade-in{
-    0% {opacity: 0 ; }
-    100% {opacity: 100 ; }
-}
-@keyframes fadeBackground {
-    from { background-color: #ddd; }
-    to { background-color: #fff; }
+.basicos:link{
+    color: blue;
 }
 
-.secciones :active{
-    color: rgb(37, 35, 35);
+.basicos:visited{
+    color: darkblue;
+}
+
+.basicos:hover{
+    color: #040453;
+    text-decoration: underline;
+}
+
+footer{
+    background-color: #45465e;
+    border: 50px 50px #eef ;
+    padding: 4% 0%   ; 
 }
 
 .extras__h2{
     display: inline;
     margin: 0px 75px;
-    background-color: #ddd;
-    border: 50px 50px #eef ;
     border-radius: 10px;
     font-size: xx-large;
 }
 
 .extras__h2 :link{
-    color: blue;
+    color: white;
 }
 
 .extras__h2 :visited{
-    color: darkblue;
+    color: whitesmoke;
 }
 
 .extras__h2 :hover{
