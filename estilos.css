@@ -59,12 +59,11 @@ footer{
     padding : 4% 0% ; 
 }
 
-.extras__h2{
-    display: inline;
-    margin: 0px 75px;
-    border-radius: 10px;
-    font-size: xx-large;
-}
+.extras__h2 {
+        display: inline;
+        font-size: xx-large;
+        margin: 0px 5.5%;
+    }
 
 .extras__h2 :link{
     color: white;
