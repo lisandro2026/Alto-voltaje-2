@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+}
+
+
+header{
+  background-color: #1e1e31;
+  position: sticky;
+  top:0%;
+}
+
+.logo{
+  width: 70px;
+}
+
+a{ 
+  text-decoration: none;
+
+}
+
+.banner-sections{
+  color: azure;
+  float: right;
+  left: 100px;
+  margin-right: 1rem;
+
+}
+
+section img{
+  float: right;
+
+}
+
+article img{
+  width: 5%;
+}

@@ -14,16 +14,13 @@ header div{
     text-align: center;
 }
 img{
-    width: 10ch;
-    height: 10ch;
-    margin-bottom: 5ch;
-    animation: beat 1.5s;
+    width: 20ch;
+    height: 20ch;
+    margin-bottom: 0ch;
+    /* animation: beat 1.5s; */
 }
 @keyframes beat {
-    0%{transform: scale(1) ;}
-    25%{transform: scale(1.3);}
-    75%{transform: scale(1.7);}
-    100%{transform: scale(1) ;}
+    100%{transform: scale(1.7);}
 }
 
 section{
