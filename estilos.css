@@ -85,10 +85,3 @@ footer{
     float: left;
     width: 8ch;
 }
-@media screen and(max-width: 820px) {
-
-    .basicos:hover{
-        color: #040453;
-    }
-
-}
