@@ -3,85 +3,26 @@
     font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
-body{
-    background-image:url(fondoAltoVoltaje.jpg);
-}
-a{
-    text-decoration: none;
-}
-
-header div{
-    text-align: center;
-}
 img{
-    width: 20ch;
-    height: 20ch;
-    margin-bottom: 0ch;
-    /* animation: beat 1.5s; */
-}
-@keyframes beat {
-    100%{transform: scale(1.7);}
+    width: 10ch;
+    background-color: #28245e;
 }
 
-section{
-    display: block;
-}
-.basicos{
-    background-color: rgb(221, 221, 221);
-    display: block;
-    text-align: center;
-    font-size: 300%;
-    transition: all 0.5s ease 0s;
-    padding: 3rem;
-    margin: 1% 0.5% 0.5%;
+body{
+    background-color: #cfcfd6;
 }
 
-.basicos:link{
-    color: blue;
+a, div{
+    display: inline;
 }
 
-.basicos:visited{
-    color: darkblue;
-}
-
-.basicos:hover{
-    background-color: #fff;
-    color: #040453;
-    text-decoration: underline;
-    font-size: 350%;
-}
-
-footer{
-    background-color: #45465e;
-    padding : 4% 0% ; 
-}
-
-.extras__h2 {
-        display: inline;
-        font-size: xx-large;
-        margin: 0px 5.5%;
-    }
-
-.extras__h2 :link{
-    color: white;
-}
-
-.extras__h2 :visited{
-    color: whitesmoke;
-}
-
-.extras__h2 :hover{
-    text-decoration: underline;
-}
-
-#largo{
+header a{
     float: right;
-    width: 8ch;
 }
-#corto{
-    margin-right: 0;
+
+section a{
+    background-color: #fff;
+    display: inline;
+    font-size: 2rem;
 }
-#largo2{
-    float: left;
-    width: 8ch;
-}
+

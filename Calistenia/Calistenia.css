@@ -3,7 +3,7 @@
   margin: 0;
 }
 body{
-  background-image: url(fondoAltoVoltaje.jpg);
+  background-color:#a7a7a7;
   color: white;
 }
 
@@ -43,9 +43,25 @@ section img{
   float: right;
 }
 
+article img{
+  width: 790px;
+}
+
+#chuy{
+  width: auto;
+ height: 220px;
+ padding-right: 50px;
+}
+
+
 .articulos {
   font-size: 150%;
   font-weight: 100;
+  background-color: #fff;
+  margin-right: 10px;
+  padding-left: 5px;
+  border-radius: 15px ;
+  overflow: hidden;
 }
 
 .titulos{
@@ -60,5 +76,12 @@ section img{
   margin-top: 10px;  
   border-color: black;
   border-width: 5px;
-  border-radius: 40px;
+  border-radius: 20px;
+}
+
+
+.video-containers{
+  display: inline-block;
+  margin: 10px;
+  background-color: #fff;
 }
