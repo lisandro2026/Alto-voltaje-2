@@ -3,13 +3,49 @@
     font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
+
+header{
+    background-color: #1e1e31;
+    position: sticky;
+    top:0%;
+}
+
 img{
-    width: 10ch;
-    background-color: #28245e;
+    width: 70px;
+    background-color: #1e1e31;
+    border-color: black;
+ 
+}
+
+a{ 
+    text-decoration: none;
+  
+  }
+  
+.banner-sections{
+    color: azure;
+    float: right;
+    left: 100px;
+    margin-right: 1rem;
+    font-size: x-large;    
+  
+
+}
+
+.banner-sections:link{
+
+}
+
+.banner-sections:visited{
+    text-decoration: underline;
+}
+
+.banner-sections:hover{
+    text-decoration: underline;
 }
 
 body{
-    background-color: #cfcfd6;
+    background-color:#262a50;
 }
 
 a, div{
@@ -20,9 +56,38 @@ header a{
     float: right;
 }
 
-section a{
-    background-color: #fff;
-    display: inline;
+#logo-principal{
+    float: right;
+    width: 500px;
+    background-color: #262a50;
+}
+
+.basicos{
+    color: #0a0461;
+    display: block;
     font-size: 2rem;
+    background-color: #fff;
+    margin-top: .15px;
+    text-align: center;
+    padding: 2.5rem 0 2.5rem 0;
+    margin-right: 500px;
+    border-radius: 20px;
+    transition: all .5s;
+}
+
+.basicos:link{
+
+}
+
+.basicos:visited{
+
+}
+
+.basicos:hover{
+    font-size: 3rem;
+}
+
+#basico1{
+    margin-top: 0;
 }
 

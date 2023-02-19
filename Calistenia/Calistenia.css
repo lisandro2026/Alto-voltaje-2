@@ -27,7 +27,19 @@ a{
   float: right;
   left: 100px;
   margin-right: 1rem;
+  font-size: x-large;    
+  
+}
+.banner-sections:link{
 
+}
+
+.banner-sections:visited{
+  text-decoration: underline;
+}
+
+.banner-sections:hover{
+    text-decoration: underline;
 }
 
 .titulo{
