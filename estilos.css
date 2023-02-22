@@ -86,9 +86,6 @@ div{
     }
 }
 
-#logo-principal a:link{
-
-}
 
 #logo-principal:hover{
     background-color: #1b1d36;
@@ -109,11 +106,12 @@ div{
 }
 
 .basicos:link{
-
+    color: #0a0461;
 }
 
 .basicos:visited{
-
+    color: #0a0461;
+    text-decoration: underline;
 }
 
 .basicos:hover{
