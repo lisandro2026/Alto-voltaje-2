@@ -28,13 +28,11 @@ a{
     left: 100px;
     margin-right: 1rem;
     font-size: x-large;    
-  
-
+    animation: pendejos 5s 2;
+    margin-top: 20px;
 }
 
-.banner-sections:link{
 
-}
 
 .banner-sections:visited{
     text-decoration: underline;
@@ -54,17 +52,15 @@ a, div{
 
 header a{
     float: right;
+    margin: 0 10px ;
 }
 
-div{
-    float: right;
-    width: 10px;
-}
+
 
 #logo-principal{
-    float: right;
-    width: 400px ;
-    margin: 50px;
+    float: left;
+    width: 35% ;
+    /* margin: 50px; */
     background-color: #262a50;
     animation: click-me  7s 10 ;
     /* duration timing-function delay iteration-count direction fill-mode */
@@ -72,7 +68,7 @@ div{
     transition: all 1s;
 }
 
-@keyframes click-me{
+/* @keyframes click-me{
     10%{scale: 1; }
     20%{scale: 1; }
     30%{scale: 1; }
@@ -84,30 +80,32 @@ div{
         width: 400px / 1.03; 
         margin: 50px / 1.03;
     }
-}
+} */
 
 
-#logo-principal:hover{
+/* #logo-principal:hover{
     background-color: #1b1d36;
     animation: none;    
-}
+} */
 
 .basicos{
     color: #0a0461;
     display: block;
     font-size: 2rem;
-    background-color: #fff;
-    margin-top: .1px;
+    margin-top: .5px;
+    background-color: #eceaea;
     text-align: center;
-    padding: 2.5rem 0 2.5rem 0;
-    margin-right: 500px;
-    border-radius: 20px;
-    transition: all .5s;
+    padding: 2.46rem 0;
+    margin-left: 500px;
+    margin-right: 10px;
+    border-radius: 10px;
+    transition: all .25s ease-in-out;
 }
 
 .basicos:link{
     color: #0a0461;
 }
+
 
 .basicos:visited{
     color: #0a0461;
@@ -115,10 +113,179 @@ div{
 }
 
 .basicos:hover{
+    background-color: #fff;
     font-size: 3rem;
+    padding: 2.0001rem 0  ;
+}
+.basicos:active{
+    color: #042c61;
+    text-decoration: underline;
 }
 
 #basico1{
-    margin-top: 0;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 1280px) {
+
+
+
+    header a{
+        margin:5px 1px ;
+        display: none;
+    }
+
+    #logo-principal{
+        display: none;
+    }
+
+    *{
+        font-family: 'Montserrat', sans-serif;
+        margin: 0;
+    }
+    
+    header{
+        background-color: #1e1e31;
+        position: sticky;
+        top:0%;
+    }
+    
+    img{
+        width: 70px;
+        background-color: #1e1e31;
+        border-color: black;
+     
+    }
+    
+    a{ 
+        text-decoration: none;
+      
+      }
+      
+    .banner-sections{
+        color: azure;
+        line-height: 10%;
+        left: 100px;
+        margin-right: 1rem;
+        font-size: 1rem;    
+        margin-top: 20px;
+    }
+    
+    
+    
+    .banner-sections:visited{
+        text-decoration: underline;
+    }
+    
+    .banner-sections:hover{
+        text-decoration: underline;
+    }
+    
+    #b-s-1{
+        display: none;
+    }
+    #b-s-2{
+        display: none;
+    }
+    #b-s-3{
+        display: none;
+    }
+    #b-s-4{
+        display: none;
+    }
+    body{
+        background-color:#262a50;
+    }
+    
+    a, div{
+        display: inline;
+    }
+    
+    header a{
+        float: right;
+        margin: 0 10px ;
+    }
+    
+    
+    
+    #logo-principal{
+        float: left;
+        width: 35% ;
+        /* margin: 50px; */
+        background-color: #262a50;
+        animation: click-me  7s 10 ;
+        /* duration timing-function delay iteration-count direction fill-mode */
+        border-radius: 10px;
+        transition: all 1s;
+    }
+    
+    /* @keyframes click-me{
+        10%{scale: 1; }
+        20%{scale: 1; }
+        30%{scale: 1; }
+        40%{scale: 1; }
+        50%{scale: 1; }
+        60%{scale: 1; }
+        70%{scale: 1; }
+        80%{scale: 1.03; margin-left: 0; 
+            width: 400px / 1.03; 
+            margin: 50px / 1.03;
+        }
+    } */
+    
+    
+    /* #logo-principal:hover{
+        background-color: #1b1d36;
+        animation: none;    
+    } */
+    
+    .basicos{
+        color: #0a0461;
+        display: block;
+        font-size: 2rem;
+        margin-top: .5px;
+        background-color: #eceaea;
+        text-align: center;
+        padding:1rem 0;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 5px;
+        transition: all .25s ease-in-out;
+    }
+    
+    .basicos:link{
+        color: #0a0461;
+    }
+    .basicos:visited{
+        color: #0a0461;
+        text-decoration: underline;
+    }
+    .basicos:hover{ 
+        color: #0a0461!important;
+        display: block!important;
+        font-size: 2rem!important;
+        margin-top: .5px!important;
+        background-color: #fff!important;
+        text-align: center!important;
+        padding: 2.46rem 0!important;
+        margin-left: 500px!important;
+        margin-right: 100px!important;
+        border-radius: 10px!important; 
+        text-decoration: none!important;
+    }
+    
+    .basicos:active{
+        color: #042c61;
+        text-decoration: underline;
+    }
+    
+    #basico1{
+        margin-top: 10px;
+    }
+    
+    
+
+
+    
 }
 
