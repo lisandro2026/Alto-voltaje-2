@@ -1,0 +1,25 @@
+.banner-sections{
+    color: azure;
+    float: right;
+    left: 100px;
+    margin-right: 1rem;
+    font-size: x-large;   
+    margin-top: 20px; 
+    
+  }
+  .banner-sections:link{
+  
+  }
+  
+  .banner-sections:visited{
+    text-decoration: underline;
+  }
+  
+  .banner-sections:hover{
+      text-decoration: underline;
+  }
+  
+  .titulo{
+    font-size: 350%;
+  }
+  
