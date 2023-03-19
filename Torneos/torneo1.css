@@ -74,6 +74,10 @@ a{
   text-decoration: underline;
 }
 
+.titulos-h2{
+  font-size: 270%;
+}
+
 #calis{
   text-decoration: underline;
   color: #08089a;
