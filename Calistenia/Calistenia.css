@@ -59,9 +59,17 @@ section img{
 }
 
 article img{
-  width: 75%;
+  width: 65%;
 }
 
+ul li {
+  padding-top: 20px;
+
+}
+
+
+#beneficios{list-style-type: disc;
+}
 #chuy{
   width: auto;
  height: 220px;
@@ -79,7 +87,7 @@ ul{
 }
 
 .articulos {
-  font-size: 150%;
+  font-size: 200%;
   font-weight: 100;
   background-color: #fff;
   margin-right: 10px;
@@ -94,7 +102,7 @@ ul{
   text-decoration: underline;
 }
 
-#video1{
+.videos{
   width: 20ch;
   margin: 10px 15px;
   border-color: black;
