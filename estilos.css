@@ -241,7 +241,7 @@ header a{
     .footer-sections{
         margin-top: 0%;
         display: inline;
-        padding: 2.7% 5.7%;
+        padding: 2% 5%;
         color: #fff;
         background: #1e1e31 ;
         background-size: 100%;
@@ -254,6 +254,12 @@ header a{
     }
     .footer-sections a:hover{
         text-decoration: underline;
+    }
+    #f-s-2{
+        float: left;
+    }
+    #f-s-3{
+        float: right;
     }
 }
 
